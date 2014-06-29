@@ -93,19 +93,6 @@ function phreaknic_settings_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'rules_event_whitelist';
-  $strongarm->value = array(
-    'flag_flagged_default_event' => 0,
-    'commerce_checkout_complete' => 1,
-    'commerce_cart_product_add' => 2,
-    'commerce_cart_product_remove' => 3,
-    'commerce_product_calculate_sell_price' => 4,
-  );
-  $export['rules_event_whitelist'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'site_403';
   $strongarm->value = '';
   $export['site_403'] = $strongarm;
@@ -149,14 +136,14 @@ function phreaknic_settings_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_slogan';
-  $strongarm->value = '';
+  $strongarm->value = 'Nashville, TN - October 30 - November 2, 2014';
   $export['site_slogan'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'theme_default';
-  $strongarm->value = 'pisces';
+  $strongarm->value = 'phreaknic';
   $export['theme_default'] = $strongarm;
 
   $strongarm = new stdClass();
