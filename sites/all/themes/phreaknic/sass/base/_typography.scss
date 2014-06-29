@@ -2,7 +2,9 @@
 
 body {
 	font-family: 'Ubuntu Mono', Monaco, monospaced;
-	background: azure;
+	background: url(../images/tothestars.jpg) #4B9FB3;
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 
@@ -14,6 +16,52 @@ div.messages.error {
 	background: red;
 }
 
-header {
-	min-height: 150px;
+.l-header {
+	//min-height: 300px;
+	overflow: hidden;
 	}
+
+.l-branding {
+	width: 75%;
+}
+.site-branding__name {
+	color: #4B9FB3;
+	font-size: 2.5em;
+	margin-bottom: 0px;
+}
+
+.site-branding h1 {
+	margin: 5px;
+}
+
+h2.site-branding__slogan {
+	color: black;
+	font-size: 1.2em;
+	margin-left: 10px;
+	width: 100%;
+	max-width: 500px;
+}
+
+.l-region,
+.l-content,
+.l-highlighted-wrapper {
+	background: rgba(255, 255, 255, 0.74);
+	border: 1px solid silver;
+	border-radius: 5px;
+	box-shadow: 1px 3px 3px;
+
+}
+
+.l-content,
+.l-highlighted-wrapper {
+	padding: 10px;
+
+
+}
+.l-highlighted-wrapper {
+	margin-top: 25px;
+}
+
+.l-main {
+	border-radius: 10px;
+}
