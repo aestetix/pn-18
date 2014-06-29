@@ -13,6 +13,32 @@ function pn_contexts_context_default_contexts() {
   $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
+  $context->name = 'homepage';
+  $context->description = '';
+  $context->tag = 'phreaknic';
+  $context->conditions = array();
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'views-cod_news-single_item_block' => array(
+          'module' => 'views',
+          'delta' => 'cod_news-single_item_block',
+          'region' => 'highlighted',
+          'weight' => '-10',
+        ),
+      ),
+    ),
+  );
+  $context->condition_mode = 0;
+
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('phreaknic');
+  $export['homepage'] = $context;
+
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
   $context->name = 'sitewide';
   $context->description = 'Sitewide contetxt';
   $context->tag = 'phreaknic';
@@ -26,16 +52,16 @@ function pn_contexts_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
+        'system-main-menu' => array(
+          'module' => 'system',
+          'delta' => 'main-menu',
+          'region' => 'highlighted',
+          'weight' => '-10',
+        ),
         'system-main' => array(
           'module' => 'system',
           'delta' => 'main',
           'region' => 'content',
-          'weight' => '-10',
-        ),
-        'system-main-menu' => array(
-          'module' => 'system',
-          'delta' => 'main-menu',
-          'region' => 'sidebar_second',
           'weight' => '-10',
         ),
         'user-login' => array(
