@@ -66,3 +66,9 @@ h2.site-branding__slogan {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/base\/_typography\.scss}line{font-family:\0000365}}
 .l-main {
   border-radius: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/components\/_blocks\.scss}line{font-family:\000031}}
+.block {
+  border: 1px dashed black;
+  margin: 10px 0;
+  padding: 10px; }
