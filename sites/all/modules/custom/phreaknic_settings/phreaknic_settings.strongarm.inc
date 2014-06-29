@@ -13,6 +13,66 @@ function phreaknic_settings_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'admin_theme';
+  $strongarm->value = 'adminimal';
+  $export['admin_theme'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'clean_url';
+  $strongarm->value = 1;
+  $export['clean_url'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'cod_events_default_event';
+  $strongarm->value = '1';
+  $export['cod_events_default_event'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'cod_selected_extras';
+  $strongarm->value = array(
+    'cod_bof' => 'cod_bof',
+    'cod_community' => 'cod_community',
+    'cod_news' => 'cod_news',
+    'cod_paid_events' => 'cod_paid_events',
+    'cod_profile_optional' => 'cod_profile_optional',
+    'cod_profile_social' => 'cod_profile_social',
+    'cod_registration' => 'cod_registration',
+    'cod_schedule' => 'cod_schedule',
+    'cod_session_pages' => 'cod_session_pages',
+    'cod_sponsors_pages' => 'cod_sponsors_pages',
+  );
+  $export['cod_selected_extras'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'date_default_timezone';
+  $strongarm->value = 'America/Chicago';
+  $export['date_default_timezone'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'date_format_cod_time';
+  $strongarm->value = 'g:ia';
+  $export['date_format_cod_time'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'default_nodes_main';
+  $strongarm->value = '10';
+  $export['default_nodes_main'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'file_default_scheme';
   $strongarm->value = 'public';
   $export['file_default_scheme'] = $strongarm;
@@ -154,6 +214,21 @@ function phreaknic_settings_strongarm() {
     'toggle_node_info_page' => FALSE,
   );
   $export['theme_settings'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'title_node';
+  $strongarm->value = array(
+    'auto_attach' => array(
+      'title' => 'title',
+    ),
+    'hide_label' => array(
+      'page' => 0,
+      'entity' => 0,
+    ),
+  );
+  $export['title_node'] = $strongarm;
 
   return $export;
 }
