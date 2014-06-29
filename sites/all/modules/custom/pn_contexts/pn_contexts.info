@@ -1,0 +1,10 @@
+name = PN Contexts
+description = Contexts for PhreakNIC
+core = 7.x
+package = PhreakNIC
+dependencies[] = context
+dependencies[] = ctools
+features[context][] = sitewide
+features[ctools][] = context:context:3
+features[features_api][] = api:2
+project path = sites/all/modules/custom
