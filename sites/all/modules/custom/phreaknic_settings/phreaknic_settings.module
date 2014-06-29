@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the PhreakNIC Settings feature.
+ */
+
+include_once 'phreaknic_settings.features.inc';
