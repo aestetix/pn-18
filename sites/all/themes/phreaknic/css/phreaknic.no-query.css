@@ -4,6 +4,55 @@
 img, media {
   max-width: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/base\/_regions\.scss}line{font-family:\000032}}
+.l-header {
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/base\/_regions\.scss}line{font-family:\000037}}
+.l-branding {
+  width: 75%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/base\/_regions\.scss}line{font-family:\0000310}}
+.site-branding__name {
+  color: #4B9FB3;
+  font-size: 2.5em;
+  margin-bottom: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/base\/_regions\.scss}line{font-family:\0000316}}
+.site-branding h1 {
+  margin: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/base\/_regions\.scss}line{font-family:\0000320}}
+h2.site-branding__slogan {
+  color: black;
+  font-size: 1.2em;
+  margin-left: 10px;
+  width: 100%;
+  max-width: 500px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/base\/_regions\.scss}line{font-family:\0000331}}
+.l-region--sidebar-second,
+.l-content,
+.l-highlighted-wrapper,
+.l-footer-wrapper {
+  background: rgba(255, 255, 255, 0.74);
+  border: 1px solid silver;
+  border-radius: 5px;
+  box-shadow: 1px 3px 3px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/base\/_regions\.scss}line{font-family:\0000340}}
+.l-content,
+.l-highlighted-wrapper {
+  padding: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/base\/_regions\.scss}line{font-family:\0000345}}
+.l-highlighted-wrapper {
+  margin-top: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/base\/_regions\.scss}line{font-family:\0000349}}
+.l-main {
+  border-radius: 10px; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/base\/_typography\.scss}line{font-family:\000033}}
 body {
   font-family: 'Ubuntu Mono', Monaco, monospaced;
@@ -19,56 +68,39 @@ div.messages.warning {
 div.messages.error {
   background: red; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/base\/_typography\.scss}line{font-family:\0000319}}
-.l-header {
-  overflow: hidden; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/base\/_typography\.scss}line{font-family:\0000324}}
-.l-branding {
-  width: 75%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/base\/_typography\.scss}line{font-family:\0000327}}
-.site-branding__name {
-  color: #4B9FB3;
-  font-size: 2.5em;
-  margin-bottom: 0px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/base\/_typography\.scss}line{font-family:\0000333}}
-.site-branding h1 {
-  margin: 5px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/base\/_typography\.scss}line{font-family:\0000337}}
-h2.site-branding__slogan {
-  color: black;
-  font-size: 1.2em;
-  margin-left: 10px;
-  width: 100%;
-  max-width: 500px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/base\/_typography\.scss}line{font-family:\0000347}}
-.l-region,
-.l-content,
-.l-highlighted-wrapper {
-  background: rgba(255, 255, 255, 0.74);
-  border: 1px solid silver;
-  border-radius: 5px;
-  box-shadow: 1px 3px 3px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/base\/_typography\.scss}line{font-family:\0000356}}
-.l-content,
-.l-highlighted-wrapper {
-  padding: 10px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/base\/_typography\.scss}line{font-family:\0000361}}
-.l-highlighted-wrapper {
-  margin-top: 25px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/base\/_typography\.scss}line{font-family:\0000365}}
-.l-main {
-  border-radius: 10px; }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/components\/_blocks\.scss}line{font-family:\000031}}
 .block {
   border: 1px dashed black;
   margin: 10px 0;
   padding: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/components\/_navigation\.scss}line{font-family:\000031}}
+#block-system-main-menu {
+  border: 1px solid #a7a7a7;
+  background: silver;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px black; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/components\/_navigation\.scss}line{font-family:\000039}}
+#block-system-main-menu .block {
+  border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/components\/_navigation\.scss}line{font-family:\0000315}}
+#block-system-main-menu .block__title {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/components\/_navigation\.scss}line{font-family:\0000319}}
+#block-system-main-menu ul.menu {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/components\/_navigation\.scss}line{font-family:\0000324}}
+#block-system-main-menu ul.menu li {
+  display: inline;
+  font-size: 1.5em;
+  margin: 0px 15px;
+  text-align: justify; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/logickal\/Dev\/devdesktop\/phreaknic\/sites\/all\/themes\/phreaknic\/sass\/components\/_navigation\.scss}line{font-family:\0000332}}
+#block-system-main-menu a {
+  text-decoration: none;
+  text-transform: uppercase; }
