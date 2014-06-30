@@ -2,7 +2,8 @@ name = COD Events
 description = Provides base event management
 core = 7.x
 package = COD
-project = cod_events
+version = 7.x-1.0-beta1
+project = cod_support
 dependencies[] = cod_base
 dependencies[] = ctools
 dependencies[] = date
@@ -26,6 +27,7 @@ dependencies[] = strongarm
 dependencies[] = text
 dependencies[] = views
 dependencies[] = views_field_view
+datestamp = 1402004328
 features[ctools][] = page_manager:pages_default:1
 features[ctools][] = strongarm:strongarm:1
 features[ctools][] = views:views_default:3.0
@@ -83,10 +85,3 @@ features_exclude[field_instance][node-event-field_event_product] = node-event-fi
 features_exclude[field_instance][node-event-field_paid_event] = node-event-field_paid_event
 files[] = includes/views/handlers/cod_events_plugin_argument_default_event.inc
 files[] = includes/views/handlers/cod_events_plugin_argument_default_type.inc
-
-; Information added by Drupal.org packaging script on 2014-06-05
-version = "7.x-1.0-beta1"
-core = "7.x"
-project = "cod_support"
-datestamp = "1402004328"
-

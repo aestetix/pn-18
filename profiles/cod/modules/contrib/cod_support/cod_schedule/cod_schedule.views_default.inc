@@ -10,7 +10,6 @@
 function cod_schedule_views_default_views() {
   $export = array();
 
-  // This is the POC from DyanneNova, keeping here for legacy reasons for now.
   $view = new view();
   $view->name = 'cod_event_rooms';
   $view->description = '';
@@ -19,7 +18,7 @@ function cod_schedule_views_default_views() {
   $view->human_name = 'COD Event Rooms';
   $view->core = 7;
   $view->api_version = '3.0';
-  $view->disabled = TRUE; /* Edit this to true to make a default view disabled initially */
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
@@ -322,13 +321,12 @@ function cod_schedule_views_default_views() {
     'link' => 1,
   );
   $handler->display->display_options['fields']['field_speakers']['delta_offset'] = '0';
-  /* Field: Content: Track */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['field_session_track']['id'] = 'field_session_track';
   $handler->display->display_options['fields']['field_session_track']['table'] = 'field_data_field_session_track';
   $handler->display->display_options['fields']['field_session_track']['field'] = 'field_session_track';
   $handler->display->display_options['fields']['field_session_track']['label'] = '';
   $handler->display->display_options['fields']['field_session_track']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_session_track']['type'] = 'taxonomy_term_reference_plain';
   /* Sort criterion: Content: Post date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'node';
@@ -453,13 +451,12 @@ function cod_schedule_views_default_views() {
     'link' => 1,
   );
   $handler->display->display_options['fields']['field_speakers']['delta_offset'] = '0';
-  /* Field: Content: Track */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['field_session_track']['id'] = 'field_session_track';
   $handler->display->display_options['fields']['field_session_track']['table'] = 'field_data_field_session_track';
   $handler->display->display_options['fields']['field_session_track']['field'] = 'field_session_track';
   $handler->display->display_options['fields']['field_session_track']['label'] = '';
   $handler->display->display_options['fields']['field_session_track']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_session_track']['type'] = 'taxonomy_term_reference_plain';
   /* Field: Content: Experience level */
   $handler->display->display_options['fields']['field_experience']['id'] = 'field_experience';
   $handler->display->display_options['fields']['field_experience']['table'] = 'field_data_field_experience';

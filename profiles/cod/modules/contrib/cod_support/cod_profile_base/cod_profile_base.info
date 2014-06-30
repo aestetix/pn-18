@@ -2,12 +2,14 @@ name = COD Profile Base
 description = Provides a base set of profile fields for user profiles.
 core = 7.x
 package = COD
-project = cod_profile_base
+version = 7.x-1.0-beta1
+project = cod_support
 dependencies[] = addressfield
 dependencies[] = ctools
 dependencies[] = features
 dependencies[] = strongarm
 dependencies[] = text
+datestamp = 1402004328
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:2
 features[field_base][] = field_profile_bio
@@ -32,10 +34,3 @@ features[variable][] = user_picture_dimensions
 features[variable][] = user_picture_file_size
 features[variable][] = user_picture_style
 features[variable][] = user_pictures
-
-; Information added by Drupal.org packaging script on 2014-06-05
-version = "7.x-1.0-beta1"
-core = "7.x"
-project = "cod_support"
-datestamp = "1402004328"
-

@@ -2,11 +2,11 @@ name = COD Sponsors
 description = Sponsorship features
 core = 7.x
 package = COD
-project = cod_sponsors
+version = 7.x-1.0-beta1
+project = cod_support
 dependencies[] = cod_base
 dependencies[] = cod_events
 dependencies[] = cod_session
-dependencies[] = cod_sponsors
 dependencies[] = ctools
 dependencies[] = entityreference
 dependencies[] = features
@@ -22,6 +22,7 @@ dependencies[] = taxonomy
 dependencies[] = text
 dependencies[] = views
 dependencies[] = views_content
+datestamp = 1402004328
 features[ctools][] = context:context:3
 features[ctools][] = strongarm:strongarm:1
 features[ctools][] = views:views_default:3.0
@@ -66,10 +67,3 @@ features[variable][] = node_submitted_sponsorship_level
 features[views_view][] = cod_sponsors
 features[views_view][] = cod_sponsors_admin
 features[views_view][] = cod_sponsors_levels
-
-; Information added by Drupal.org packaging script on 2014-06-05
-version = "7.x-1.0-beta1"
-core = "7.x"
-project = "cod_support"
-datestamp = "1402004328"
-
