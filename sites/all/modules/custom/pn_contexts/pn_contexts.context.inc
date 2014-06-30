@@ -52,12 +52,6 @@ function pn_contexts_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'system-main-menu' => array(
-          'module' => 'system',
-          'delta' => 'main-menu',
-          'region' => 'highlighted',
-          'weight' => '-10',
-        ),
         'system-main' => array(
           'module' => 'system',
           'delta' => 'main',
@@ -69,6 +63,18 @@ function pn_contexts_context_default_contexts() {
           'delta' => 'login',
           'region' => 'sidebar_second',
           'weight' => '-9',
+        ),
+        'views-cod_news-multi_news_block' => array(
+          'module' => 'views',
+          'delta' => 'cod_news-multi_news_block',
+          'region' => 'sidebar_second',
+          'weight' => '-8',
+        ),
+        'views-ticket_user-block' => array(
+          'module' => 'views',
+          'delta' => 'ticket_user-block',
+          'region' => 'sidebar_second',
+          'weight' => '-7',
         ),
       ),
     ),
