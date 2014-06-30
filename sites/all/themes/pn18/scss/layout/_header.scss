@@ -5,3 +5,22 @@
 	background: url(../images/tothestars.png) no-repeat bottom;
 	margin-bottom: 20px;
 }
+
+#title_block {
+	width: 45%;
+	background: rgba(168, 168, 168, 0.45);
+	padding: 15px;
+	border-radius: 1px;
+	margin-top: 5px;
+
+}
+
+#title_block h1,
+#title_block h2,
+#title_block h3 {
+	color: rgb(199, 21, 21);
+}
+
+#title_block h2 {
+	font-size: 2rem;
+}
