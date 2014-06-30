@@ -2,6 +2,7 @@ name = PN Contexts
 description = Contexts for PhreakNIC
 core = 7.x
 package = PhreakNIC
+dependencies[] = block
 dependencies[] = context
 dependencies[] = ctools
 dependencies[] = views

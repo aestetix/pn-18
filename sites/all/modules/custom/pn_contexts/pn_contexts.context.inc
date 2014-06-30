@@ -16,14 +16,26 @@ function pn_contexts_context_default_contexts() {
   $context->name = 'homepage';
   $context->description = '';
   $context->tag = 'phreaknic';
-  $context->conditions = array();
+  $context->conditions = array(
+    'path' => array(
+      'values' => array(
+        '<front>' => '<front>',
+      ),
+    ),
+  );
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
+        'block-2' => array(
+          'module' => 'block',
+          'delta' => '2',
+          'region' => 'header',
+          'weight' => '-10',
+        ),
         'views-cod_news-single_item_block' => array(
           'module' => 'views',
           'delta' => 'cod_news-single_item_block',
-          'region' => 'highlighted',
+          'region' => 'triptych_first',
           'weight' => '-10',
         ),
       ),
