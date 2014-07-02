@@ -1,0 +1,10 @@
+name = PN Registration Page
+description = Registration Page
+core = 7.x
+package = PhreakNIC
+dependencies[] = ctools
+dependencies[] = page_manager
+features[ctools][] = page_manager:pages_default:1
+features[features_api][] = api:2
+features[page_manager_pages][] = phreaknic_registration
+project path = sites/all/modules/custom

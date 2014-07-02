@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the PN Registration Page feature.
+ */
+
+include_once 'pn_registration_page.features.inc';
