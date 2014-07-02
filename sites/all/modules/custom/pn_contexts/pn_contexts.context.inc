@@ -38,6 +38,12 @@ function pn_contexts_context_default_contexts() {
           'region' => 'triptych_first',
           'weight' => '-10',
         ),
+        'views-cod_schedule_content-block_1' => array(
+          'module' => 'views',
+          'delta' => 'cod_schedule_content-block_1',
+          'region' => 'triptych_middle',
+          'weight' => '-10',
+        ),
       ),
     ),
   );
