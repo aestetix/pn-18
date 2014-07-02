@@ -45,6 +45,7 @@ function cod_sponsors_user_default_permissions() {
     'name' => 'view sponsors',
     'roles' => array(
       'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'cod_sponsors',

@@ -102,6 +102,7 @@ function cod_session_user_default_permissions() {
     'name' => 'view sessions',
     'roles' => array(
       'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'cod_session',
@@ -112,6 +113,7 @@ function cod_session_user_default_permissions() {
     'name' => 'view speakers',
     'roles' => array(
       'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'cod_session',

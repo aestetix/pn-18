@@ -15,6 +15,7 @@ function cod_events_user_default_permissions() {
     'name' => 'view program',
     'roles' => array(
       'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'cod_events',

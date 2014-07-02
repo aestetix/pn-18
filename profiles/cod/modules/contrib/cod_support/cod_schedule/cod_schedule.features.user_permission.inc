@@ -15,6 +15,7 @@ function cod_schedule_user_default_permissions() {
     'name' => 'view schedule',
     'roles' => array(
       'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'cod_schedule',
