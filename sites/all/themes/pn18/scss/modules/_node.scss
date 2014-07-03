@@ -14,9 +14,23 @@ ul.links {
 .section-registration .entity-ticket-type .field-name-ticket-type-label {
 	font-size: 2em;
 	font-weight: bold;
+	margin-bottom: 5px;
 
 }
 
+.section-registration .entity-ticket-type .field-name-commerce-price {
+	font-size: 2.5em;
+	font-weight: bolder;
+	margin: 24px 0;
+	background: #1B71C0;
+	padding: 10px;
+	color: #f3f3f3;
+
+}
+
+.section-registration .entity-ticket-type .field-name-ticket-type-description {
+	font-style: italic;
+}
 .edit-ticket-quantity-1 {
 	font-size: 1.5em;
 }
