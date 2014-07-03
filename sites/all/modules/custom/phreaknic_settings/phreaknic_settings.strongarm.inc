@@ -28,7 +28,7 @@ function phreaknic_settings_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cod_events_default_event';
-  $strongarm->value = '1';
+  $strongarm->value = 1;
   $export['cod_events_default_event'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -146,6 +146,7 @@ function phreaknic_settings_strongarm() {
   $strongarm->name = 'path_alias_whitelist';
   $strongarm->value = array(
     'node' => TRUE,
+    'taxonomy' => TRUE,
     'user' => TRUE,
   );
   $export['path_alias_whitelist'] = $strongarm;
