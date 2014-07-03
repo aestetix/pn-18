@@ -5,3 +5,10 @@
 // %font-FONTNAME   {}
 // %font-sans-serif { font-family: sans-serif; }
 // %font-serif      { font-family: serif; }
+
+@font-face {
+  font-family: 'Russo One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Russo One'), local('RussoOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/russoone/v2/Dr4XSvP3187HdQN4yM_EQgLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}

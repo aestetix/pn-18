@@ -44,9 +44,7 @@
 
 // Import our mixins early so they can be used by other partials.
 // Optional.
-//@import "base/mixins";
-@import url(http://fonts.googleapis.com/css?family=Russo+One&subset=latin,latin-ext,cyrillic);
-
+@import "base/mixins";
 
 
 // Common file is where you place common utility classes to extend or

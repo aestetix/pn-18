@@ -10,23 +10,24 @@
 
 #title_block {
 	width: 45%;
-	background: rgba(215, 215, 215, 0.53);
+	background: rgba(241, 238, 157, 0.64);
 	padding: 15px;
 	border-radius: 1px;
 	margin-top: 5px;
-
+	border: 1px solid #C4C4C4;
+	box-shadow: 1px 1px 15px -2px #E03535;
 }
 
 #title_block h1,
 #title_block h2,
 #title_block h3 {
-	color: #9B0C0C;
+	color: #B90707;
 	font-family: 'Russo One', sans-serif;
 }
 
 #title_block h1 {
-	font-size: 3.75rem;
+	font-size: 3rem;
 }
 #title_block h2 {
-	font-size: 2rem;
+	font-size: 1.75rem;
 }
