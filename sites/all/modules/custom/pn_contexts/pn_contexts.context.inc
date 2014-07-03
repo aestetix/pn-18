@@ -44,6 +44,12 @@ function pn_contexts_context_default_contexts() {
           'region' => 'triptych_middle',
           'weight' => '-10',
         ),
+        'block-3' => array(
+          'module' => 'block',
+          'delta' => '3',
+          'region' => 'triptych_last',
+          'weight' => '-10',
+        ),
       ),
     ),
   );
