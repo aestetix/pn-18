@@ -115,7 +115,7 @@ function pn_registration_page_default_page_manager_pages() {
     $pane->panel = 'center';
     $pane->type = 'block';
     $pane->subtype = 'commerce_cart-cart';
-    $pane->shown = TRUE;
+    $pane->shown = FALSE;
     $pane->access = array();
     $pane->configuration = array(
       'override_title' => 0,
