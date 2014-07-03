@@ -76,21 +76,15 @@ function pn_contexts_context_default_contexts() {
           'region' => 'content',
           'weight' => '-10',
         ),
-        'user-login' => array(
-          'module' => 'user',
-          'delta' => 'login',
-          'region' => 'sidebar_second',
-          'weight' => '-9',
-        ),
         'views-cod_news-multi_news_block' => array(
           'module' => 'views',
           'delta' => 'cod_news-multi_news_block',
           'region' => 'sidebar_second',
           'weight' => '-8',
         ),
-        'views-ticket_user-block' => array(
+        'views-cod_sponsors-block' => array(
           'module' => 'views',
-          'delta' => 'ticket_user-block',
+          'delta' => 'cod_sponsors-block',
           'region' => 'sidebar_second',
           'weight' => '-7',
         ),

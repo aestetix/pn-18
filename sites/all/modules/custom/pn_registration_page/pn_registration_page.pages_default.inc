@@ -15,9 +15,20 @@ function pn_registration_page_default_page_manager_pages() {
   $page->task = 'page';
   $page->admin_title = 'phreaknic-registration';
   $page->admin_description = 'Registration Page';
-  $page->path = 'register';
+  $page->path = 'registration';
   $page->access = array();
-  $page->menu = array();
+  $page->menu = array(
+    'type' => 'normal',
+    'title' => 'Registration',
+    'name' => 'main-menu',
+    'weight' => '0',
+    'parent' => array(
+      'type' => 'none',
+      'title' => '',
+      'name' => 'navigation',
+      'weight' => '0',
+    ),
+  );
   $page->arguments = array();
   $page->conf = array(
     'admin_paths' => FALSE,
@@ -63,7 +74,7 @@ function pn_registration_page_default_page_manager_pages() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'Registration';
   $display->uuid = '0b9a3be0-2f7c-42a7-9745-aea76964329b';
   $display->content = array();
   $display->panels = array();
@@ -75,7 +86,7 @@ function pn_registration_page_default_page_manager_pages() {
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
-      'label' => 'title',
+      'label' => 'hidden',
       'formatter' => 'ticket_type',
       'delta_limit' => '0',
       'delta_offset' => '0',
@@ -121,31 +132,6 @@ function pn_registration_page_default_page_manager_pages() {
     $pane->uuid = '1b942ab8-b2fb-437f-9e51-35453e5dd95a';
     $display->content['new-1b942ab8-b2fb-437f-9e51-35453e5dd95a'] = $pane;
     $display->panels['center'][1] = 'new-1b942ab8-b2fb-437f-9e51-35453e5dd95a';
-    $pane = new stdClass();
-    $pane->pid = 'new-53564f36-c6c8-48c1-afcb-48548321834e';
-    $pane->panel = 'center';
-    $pane->type = 'entity_form_field';
-    $pane->subtype = 'node:field_event_tickets';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'label' => '',
-      'formatter' => '',
-      'context' => 'context_entity:node_1',
-      'override_title' => 0,
-      'override_title_text' => '',
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 2;
-    $pane->locks = array();
-    $pane->uuid = '53564f36-c6c8-48c1-afcb-48548321834e';
-    $display->content['new-53564f36-c6c8-48c1-afcb-48548321834e'] = $pane;
-    $display->panels['center'][2] = 'new-53564f36-c6c8-48c1-afcb-48548321834e';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = 'new-7501df5d-36e1-4489-94d0-2bc317e167b6';
   $handler->conf['display'] = $display;
