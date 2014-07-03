@@ -161,14 +161,14 @@
 
   <?php if (!empty($page['triptych_first']) || !empty($page['triptych_middle']) || !empty($page['triptych_last'])): ?>
     <!--.triptych-->
-    <section class="l-triptych row">
-      <div class="triptych-first large-4 columns">
+    <section class="l-triptych row" data-equalizer>
+      <div class="triptych-first large-4 columns" data-equalizer-watch>
         <?php print render($page['triptych_first']); ?>
       </div>
-      <div class="triptych-middle large-4 columns">
+      <div class="triptych-middle large-4 columns" data-equalizer-watch>
         <?php print render($page['triptych_middle']); ?>
       </div>
-      <div class="triptych-last large-4 columns">
+      <div class="triptych-last large-4 columns" data-equalizer-watch>
         <?php print render($page['triptych_last']); ?>
       </div>
     </section>
