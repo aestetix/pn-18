@@ -38,15 +38,15 @@ function pn_contexts_context_default_contexts() {
           'region' => 'triptych_first',
           'weight' => '-10',
         ),
-        'views-cod_schedule_content-block_1' => array(
-          'module' => 'views',
-          'delta' => 'cod_schedule_content-block_1',
-          'region' => 'triptych_middle',
-          'weight' => '-10',
-        ),
         'block-3' => array(
           'module' => 'block',
           'delta' => '3',
+          'region' => 'triptych_middle',
+          'weight' => '-10',
+        ),
+        'views-featured_sessions-block' => array(
+          'module' => 'views',
+          'delta' => 'featured_sessions-block',
           'region' => 'triptych_last',
           'weight' => '-10',
         ),
