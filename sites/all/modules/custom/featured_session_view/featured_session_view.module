@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Featured Session VIew feature.
+ */
+
+include_once 'featured_session_view.features.inc';
